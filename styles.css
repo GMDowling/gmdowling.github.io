@@ -18,3 +18,18 @@ button {
 button:hover {
     background-color: #005f73;
 }
+
+/* Styles for all <img> elements */
+img {
+    width: 100%;
+    max-width: 400px; /* maximum width of images */
+    height: auto; /* maintain aspect ratio */
+    border: 2px solid #ddd; /* add a border around the image */
+    border-radius: 4px; /* round corners */
+    margin-top: 20px; /* add space above the image */
+}
+
+/* Specific image styling using a class */
+.image-rounded {
+    border-radius: 50%;
+}
