@@ -12,13 +12,14 @@ body {
   margin: 0px;
   overflow: hidden;
   padding: 0px;
+  padding-top: 60px;
 }
 
 #cards {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;  
-  max-width: 916px;
+  max-width: 1316px;
   width: calc(100% - 20px);
 }
 
@@ -150,6 +151,17 @@ i {
   font-weight: bold; /* Optional: Enhances the visibility of the stroke */
   color: grey;
   z-index: 1000; /* Ensures the text is above other elements */
+}
+
+.header {
+  position: fixed; /* Keep the header at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--bg-color); /* Use the same var for consistency */
+  z-index: 10; /* Higher than the content to overlay */
+  text-align: center; /* Center the watermark text */
+  padding: 35px 0; /* Add some padding */
 }
 
 /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
