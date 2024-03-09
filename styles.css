@@ -1,3 +1,11 @@
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: space-around; /* Even spacing */
+    height: 100vh; /* Optional: make the container fill the viewport height */
+}
+
 body {
     background-color: #f0f0f0;
     text-align: center;
