@@ -154,6 +154,7 @@ i {
   transform: translateX(-50%);
   font-size: 48px; /* Adjust the size as needed */
   font-weight: bold; /* Optional: Enhances the visibility of the stroke */
+  font-family: 'Calibri';
   color: grey;
   z-index: 1000; /* Ensures the text is above other elements */
 }
