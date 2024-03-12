@@ -89,7 +89,8 @@ function alignWatermarkWithCards() {
   if (cardsContainer && watermark) {
     const containerRect = cardsContainer.getBoundingClientRect();
     const watermarkRect = watermark.getBoundingClientRect();
-    const leftOffset = containerRect.left - watermarkRect.width / 2;
+    // const leftOffset = containerRect.left - watermarkRect.width / 2;
+    const leftOffset = containerRect.left - watermarkRect.width;
     watermark.style.left = `${leftOffset}px`;
     watermark.style.transform = 'translateX(0%)'; // Adjust if necessary for your layout
   }
