@@ -8,6 +8,7 @@ body {
   margin: 0px;
   padding: 0px;
   padding-top: 100px; /* Adjusted to maintain the desired padding at the top */
+  padding-bottom: 40;
 }
 
 #container { /* New wrapper div for centering */
