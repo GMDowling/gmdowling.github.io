@@ -7,8 +7,8 @@ body {
   background-color: var(--bg-color);
   margin: 0px;
   padding: 0px;
-  padding-top: 60px; /* Adjusted to maintain the desired padding at the top */
-  padding-bottom: 60px;
+  padding-top: 80px; /* Adjusted to maintain the desired padding at the top */
+  padding-bottom: 80px;
 }
 
 #container {
