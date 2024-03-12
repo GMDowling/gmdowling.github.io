@@ -113,6 +113,7 @@ i {
 
 .text-box-content {
   font-size: 5em; /* Adjust size as needed */
+  font-weight: 200;
   color: #FFFFFF; /* Adjust text color as needed */
   opacity: 0.75; /* Optional: Adjust text opacity */
   font-family: "Verdana";
