@@ -94,7 +94,8 @@ body {
 
 h1, h2, h3, h4, span {
   color: rgb(240, 240, 240);
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "Calibri";
   font-weight: 400;
   margin: 0px;
 }
@@ -153,7 +154,7 @@ i {
   left: 50%;
   transform: translateX(-50%);
   font-size: 48px; /* Adjust the size as needed */
-  font-weight: bold; /* Optional: Enhances the visibility of the stroke */
+  /* font-weight: bold; Optional: Enhances the visibility of the stroke */
   font-family: 'Calibri';
   color: grey;
   z-index: 1000; /* Ensures the text is above other elements */
