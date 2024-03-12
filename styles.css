@@ -165,8 +165,8 @@ i {
 
 .watermark {
   position: absolute;
-  top: 1%;
-  left: 50%;
+  top: 10%;
+  left: 15%;
   transform: translateX(-50%);
   font-size: 48px; /* Adjust the size as needed */
   font-weight: 500; /* 500:medium Optional: Enhances the visibility of the stroke */
