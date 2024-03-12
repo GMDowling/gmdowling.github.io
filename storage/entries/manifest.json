@@ -1,1 +1,10 @@
-["card1.json", "card2.json", "card3.json"]
+[
+    "storage/entries/card1.json", 
+    "storage/entries/card2.json", 
+    "storage/entries/card3.json",
+    "storage/entries/card4.json",
+    "storage/entries/card5.json",
+    "storage/entries/card6.json",
+    "storage/entries/card7.json",
+    "storage/entries/card8.json"
+]
