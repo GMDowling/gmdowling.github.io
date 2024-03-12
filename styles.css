@@ -166,8 +166,10 @@ i {
 .watermark {
   position: absolute;
   top: 10%;
-  left: 15%;
-  transform: translateX(-50%);
+  /* left: 15%; */
+  left: 0;
+  /* transform: translateX(-50%); */
+  transform: translateX(0%);
   font-size: 48px; /* Adjust the size as needed */
   font-weight: 500; /* 500:medium Optional: Enhances the visibility of the stroke */
   font-family: 'Verdana';
