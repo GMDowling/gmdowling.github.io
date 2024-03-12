@@ -163,27 +163,42 @@ i {
   margin-top: 8px;
 }
 
-.watermark {
-  position: absolute;
-  top: 1%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 48px; /* Adjust the size as needed */
-  font-weight: 500; /* 500:medium Optional: Enhances the visibility of the stroke */
-  font-family: 'Verdana';
-  color: rgb(255, 255, 255);
-  z-index: 1000; /* Ensures the text is above other elements */
-}
-
 .header {
-  position: fixed; /* Keep the header at the top */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--bg-color); /* Use the same var for consistency */
-  z-index: 10; /* Higher than the content to overlay */
-  text-align: center; /* Center the watermark text */
-  padding: 35px 0; /* Add some padding */
+  /* background-color: var(--bg-color); */
+  background-color: rgb(0, 0, 0);
+  z-index: 10;
+  text-align: center;
+  padding: 20px 0; /* Adjusted for notch size */
+}
+
+.watermark {
+  position: relative;
+  display: inline-block; /* Allows for pseudo-element positioning */
+  font-size: 48px;
+  font-weight: 500;
+  font-family: 'Verdana';
+  color: rgb(255, 255, 255);
+  z-index: 1000;
+  padding: 10px 20px; /* Adjust for text size */
+  background-color: var(--bg-color); /* Match header bg */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.watermark::after {
+  content: '';
+  position: absolute;
+  bottom: -20px; /* Adjust based on notch size */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px; /* Notch width */
+  height: 20px; /* Notch depth */
+  background-color: var(--bg-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
