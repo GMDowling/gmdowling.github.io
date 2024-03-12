@@ -4,15 +4,17 @@
 }
 
 body {
-  align-items: center;
   background-color: var(--bg-color);
-  display: flex;
-  height: 100vh;
-  justify-content: center;
   margin: 0px;
-  overflow: hidden;
   padding: 0px;
-  padding-top: 60px;
+  padding-top: 60px; /* Adjusted to maintain the desired padding at the top */
+}
+
+#container { /* New wrapper div for centering */
+  display: flex;
+  justify-content: center;
+  align-items: start; /* Align items to the start to allow natural flow */
+  min-height: 100vh; /* Ensure it takes at least the full viewport height */
 }
 
 #cards {
@@ -21,6 +23,7 @@ body {
   gap: 8px;  
   max-width: 1316px;
   width: calc(100% - 20px);
+  /* Removed overflow styles to rely on default behavior */
 }
 
 #cards:hover > .card::after {
