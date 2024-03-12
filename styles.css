@@ -11,20 +11,21 @@ body {
   padding-bottom: 100px;
 }
 
-#container { /* New wrapper div for centering */
+#container {
   display: flex;
-  justify-content: center;
-  align-items: start; /* Align items to the start to allow natural flow */
-  min-height: 100vh; /* Ensure it takes at least the full viewport height */
+  justify-content: center; /* This keeps the container centered */
+  align-items: start; /* This is fine as it aligns items to the start vertically */
+  min-height: 100vh; /* Ensures it takes the full viewport height */
+  width: 100%; /* Ensure it spans the full width of the viewport */
 }
 
 #cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;  
-  max-width: 1316px;
-  width: calc(100% - 20px);
-  /* Removed overflow styles to rely on default behavior */
+  justify-content: center; /* Center content within the cards container */
+  gap: 8px;
+  max-width: 90%; /* More responsive approach */
+  /* Adjust width calculation as needed based on the container's padding/margin */
 }
 
 #cards:hover > .card::after {
