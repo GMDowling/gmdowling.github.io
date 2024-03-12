@@ -1,0 +1,5 @@
+{
+    "title": "Implicit Fluid Sim",
+    "subtitle": "A GPU-accelerated Implicit Large Eddy Simulation (ILES) for mass airfoil analysis in cpp",
+    "image": "path/to/image.jpg"
+  }
