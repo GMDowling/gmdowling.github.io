@@ -104,6 +104,19 @@ i {
   color: rgb(240, 240, 240);
 }
 
+.card-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px; /* Match the previous image height for consistency */
+}
+
+.text-box-content {
+  font-size: 2em; /* Adjust size as needed */
+  color: #FFFFFF; /* Adjust text color as needed */
+  opacity: 0.75; /* Optional: Adjust text opacity */
+}
+
 .card-image {
   align-items: center;
   display: flex;

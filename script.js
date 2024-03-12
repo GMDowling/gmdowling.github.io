@@ -20,12 +20,13 @@ fetch('storage/entries/manifest.json')
     const cardContent = document.createElement('div');
     cardContent.className = 'card-content';
   
-    // Create the card image container and image element
-    const cardImage = document.createElement('div');
-    cardImage.className = 'card-image';
-    const img = document.createElement('img'); // Assuming you want to display an image
-    img.src = data.image; // Set the source of the image
-    cardImage.appendChild(img);
+    // Create the card text box container and text element
+    const cardTextBox = document.createElement('div');
+    cardTextBox.className = 'card-text-box';
+    const textBox = document.createElement('div'); // Create a div for the text box
+    textBox.className = 'text-box-content'; // Add class for styling
+    textBox.textContent = data.abbr; // Set the text content to the "abbr" value
+    cardTextBox.appendChild(textBox);
   
     // Create the info wrapper
     const cardInfoWrapper = document.createElement('div');
@@ -55,8 +56,8 @@ fetch('storage/entries/manifest.json')
     // Append the card info to the card info wrapper
     cardInfoWrapper.appendChild(cardInfo);
   
-    // Append the image and info wrapper to the card content
-    cardContent.appendChild(cardImage);
+    // Append the text box and info wrapper to the card content
+    cardContent.appendChild(cardTextBox);
     cardContent.appendChild(cardInfoWrapper);
   
     // Finally, append the card content to the card
