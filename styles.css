@@ -154,7 +154,7 @@ i {
   left: 50%;
   transform: translateX(-50%);
   font-size: 48px; /* Adjust the size as needed */
-  /* font-weight: bold; Optional: Enhances the visibility of the stroke */
+  font-weight: bold; /* Optional: Enhances the visibility of the stroke */
   font-family: 'Verdana';
   color: rgb(255, 255, 255);
   z-index: 1000; /* Ensures the text is above other elements */
