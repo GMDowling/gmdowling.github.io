@@ -1,5 +1,6 @@
 {
     "title": "Implicit Fluid Sim",
     "subtitle": "A GPU-accelerated Implicit Large Eddy Simulation (ILES) for mass airfoil analysis in cpp",
-    "image": "storage/entries/visuals/cardPlaceholder.webp"
+    "image": "storage/entries/visuals/cardPlaceholder.webp",
+    "abbr": "IFS"
   }

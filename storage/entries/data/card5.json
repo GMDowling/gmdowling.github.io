@@ -1,5 +1,6 @@
 {
     "title": "Lane Tools",
     "subtitle": "A patch for an in-production lidar processing pipeline producing noisy extractions of road featuers",
-    "image": "storage/entries/visuals/cardPlaceholder.webp"
+    "image": "storage/entries/visuals/cardPlaceholder.webp",
+    "abbr": "LT"
   }

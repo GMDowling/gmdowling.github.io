@@ -1,5 +1,6 @@
 {
     "title": "Airfoil Geometry Network",
     "subtitle": "A neural network for generating foil geometries from performance parameters",
-    "image": "storage/entries/visuals/cardPlaceholder.webp"
+    "image": "storage/entries/visuals/cardPlaceholder.webp",
+    "abbr": "AGN"
   }

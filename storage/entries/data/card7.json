@@ -1,5 +1,6 @@
 {
     "title": "Synthetic LIDAR",
     "subtitle": "A synthetic lidar sensor for Unreal Engine 5",
-    "image": "storage/entries/visuals/cardPlaceholder.webp"
+    "image": "storage/entries/visuals/cardPlaceholder.webp",
+    "abbr": "SL"
   }

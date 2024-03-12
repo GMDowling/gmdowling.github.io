@@ -1,5 +1,6 @@
 {
     "title": "Visual Depth Comprehension",
     "subtitle": "LIDAR-like depth comprehension from stereo camera feeds",
-    "image": "storage/entries/visuals/cardPlaceholder.webp"
+    "image": "storage/entries/visuals/cardPlaceholder.webp",
+    "abbr": "VDC"
   }
